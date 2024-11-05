@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2 id="form-title">Login</h2>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button onclick="handleAction()">Login</button>
+        <p id="error-message" style="color: red; display: none;"></p>
+        <button class="toggle-btn" onclick="toggleForm()">Don't have an account? Register</button>
+    </div> 
+    <script type="module" src="login.js"></script>
+</body>
+</html>
